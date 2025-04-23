@@ -1,0 +1,133 @@
+body {
+    background: linear-gradient(to right, rgb(19, 33, 34), rgb(43, 76, 78), rgb(20, 35, 36));
+    color: rgb(230,230,230);
+    font-family: 'Quicksand', sans-serif;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+}
+h1 {
+  margin: 1em auto;
+  text-align: center;
+}
+h2 {
+  font-size: 1.3rem;
+  margin: 1em auto;
+  text-align: center;
+}
+#cash {
+  display: block;
+  width: 40%;
+  height: 2.5em;
+  font-size: 1.1rem;
+  margin: 1em auto;
+  background-color: rgba(48, 47, 47, 0.671);
+  border: 1px solid rgb(230,230,230);
+  color: rgb(247, 248, 248);
+  text-align: center;
+  min-width: 300px;
+}
+#purchase-btn {
+  display: block;
+  width: 40%;
+  height: 3.1em;
+  font-size: 1.5rem;
+  margin: 1em auto;
+  background-color: rgba(27, 48, 49, 0.521);
+  border-color: rgb(247, 248, 248);
+  color: rgb(247, 248, 248);
+  min-width: 300px;
+}
+#purchase-btn:hover {
+  background-color: rgba(27, 48, 49, 0.904);
+}
+#purchase-btn:active {
+  background-color: rgba(13, 23, 24, 0.774);
+}
+
+
+#drawer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  background-color: rgba(13, 23, 24, 0.438);
+  width: 40%;
+  min-width: 300px;
+  height: 50rem;
+  margin: 1em auto;
+  font-size: 1rem;
+  border-radius: 2%;
+}
+#total {
+  width:100%;
+  height: 2%;
+  text-align: center;
+  font-size: 1.4em;
+}
+#drawer div{
+  padding: 1rem; 
+}
+
+
+#change-due {
+  background-color: rgba(0, 0, 0, 0.651);
+  display: block;
+  width: 80%;
+  height: 40%;
+  margin: 0.1% auto;
+  text-align: center;
+  margin: 1em auto;
+  border-radius: 2%;
+  font-size: 1.4em;
+  white-space: pre-line;
+}
+#change {
+  background-color: rgba(0, 0, 0, 0.425);
+  display: block;
+  width: 80%;
+  height: 40%;
+  margin: 0.1% auto;
+  text-align: center;
+  margin: 1em auto;
+  border-radius: 2%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+}
+#change p {
+  margin: 0.1rem auto;
+  padding: 0; 
+}
+
+
+
+.backg {
+  position: fixed;
+  width: 5em;
+  height: 5em;
+  z-index: -1;
+}
+.lefty {
+  left: 7%;
+  background: linear-gradient(270deg,  rgb(57, 97, 100),  rgb(19, 33, 34));
+}
+.righty {
+  right: 7%;
+  background: linear-gradient(90deg,  rgb(57, 97, 100),  rgb(19, 33, 34));;
+}
+
+.no1 {  top: 5rem;   border-radius: 90% 0 90% 0;}
+.no2 {  top: 12rem;  border-radius: 0 90% 0 90%;}
+.no3 {  top: 19rem;   border-radius: 90% 0 90% 0;}
+.no4 {  top: 26rem;  border-radius: 0 90% 0 90%;}
+
+.no5 {  top: 5rem;  border-radius: 0 90% 0 90%;}
+.no6 {  top: 12rem;   border-radius: 90% 0 90% 0;}
+.no7 {  top: 19rem;  border-radius: 0 90% 0 90%;}
+.no8 {  top: 26rem;  border-radius: 90% 0 90% 0;}
